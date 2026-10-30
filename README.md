@@ -64,5 +64,155 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Entitylight is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://entitylight.com
+Entitylight provides a unified API for accessing Secretary of State records, UCC filings, and court case data, enabling lenders and businesses to perform comprehensive business verification, lien searches, and lawsuit monitoring. The platform offers real-time alerts for new liens and lawsuits, detailed reporting, and a pricing model for scalable usage.
+
+**Areas:** Company · Business · API · UCC · Litigation · Monitoring
+
+## Entitylight on APIs.io
+
+Everything profiled for Entitylight is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/entitylight/](https://apis.io/providers/entitylight/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Entitylight Business Searches API](https://apis.io/apis/entitylight/entitylight-business-searches-api/) — The Business Searches API from Entitylight — 2 operation(s) for business searches.
+- [Entitylight Lookups API](https://apis.io/apis/entitylight/entitylight-lookups-api/) — The Lookups API from Entitylight — 4 operation(s) for lookups.
+- [Entitylight Ofac Screenings API](https://apis.io/apis/entitylight/entitylight-ofac-screenings-api/) — The Ofac Screenings API from Entitylight — 2 operation(s) for ofac screenings.
+- [Entitylight Ucc Searches API](https://apis.io/apis/entitylight/entitylight-ucc-searches-api/) — The Ucc Searches API from Entitylight — 2 operation(s) for ucc searches.
+- [Entitylight Usage API](https://apis.io/apis/entitylight/entitylight-usage-api/) — The Usage API from Entitylight — 1 operation(s) for usage.
+- [Entitylight Watches API](https://apis.io/apis/entitylight/entitylight-watches-api/) — The Watches API from Entitylight — 2 operation(s) for watches.
+- [Entitylight Webhook API](https://apis.io/apis/entitylight/entitylight-webhook-api/) — The Webhook API from Entitylight — 2 operation(s) for webhook.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Entitylight Webhooks](https://apis.io/asyncapis/entitylight/entitylight-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Entitylight Agentic Access](https://apis.io/agentic-access/entitylight/entitylight-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BusinessSearch](https://apis.io/schemas/entitylight/entitylight-business-search/)
+- [Lookup](https://apis.io/schemas/entitylight/entitylight-lookup/)
+- [OfacScreening](https://apis.io/schemas/entitylight/entitylight-ofac-screening/)
+- [UccSearch](https://apis.io/schemas/entitylight/entitylight-ucc-search/)
+- [Usage](https://apis.io/schemas/entitylight/entitylight-usage/)
+- [Watch](https://apis.io/schemas/entitylight/entitylight-watch/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Entitylight Context](https://apis.io/jsonld/entitylight/entitylight-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Entitylight Openapi Overlay](https://apis.io/overlays/entitylight/entitylight-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Entitylight API Rules](https://apis.io/rules/entitylight/entitylight-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Entitylight Authentication](https://apis.io/security/entitylight/entitylight-authentication/)
+- [Entitylight Domain Security](https://apis.io/security/entitylight/entitylight-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Entitylight Scopes](https://apis.io/scopes/entitylight/entitylight-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Entitylight Plans Pricing](https://apis.io/plans/entitylight/entitylight-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Entitylight Rate Limits](https://apis.io/rate-limits/entitylight/entitylight-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://entitylight.com)
+- [Getting started](https://entitylight.com/docs)
+- [Pricing](https://entitylight.com/pricing)
+- [Terms of service](https://entitylight.com/terms)
+- [Privacy policy](https://entitylight.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 59.3** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.2 |
+| Contract governance | 79.1 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 44.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 42.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/entitylight/](https://apis.io/providers/entitylight/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Entitylight: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/entitylight/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
